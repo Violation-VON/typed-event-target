@@ -39,7 +39,7 @@ jobs:
         uses: actions/upload-artifact@v7
         with:
           name: package
-          path: typed-event-target-0.0.0-dev.tgz
+          path: typed-events-target-0.0.0-dev.tgz
 
   check:
     name: Check
@@ -111,7 +111,7 @@ jobs:
 
       - name: Extract build package
         working-directory: ./package
-        run: tar -xzf typed-event-target-0.0.0-dev.tgz
+        run: tar -xzf typed-events-target-0.0.0-dev.tgz
 
       - name: Copy package.json to build package
         run: cp package.json package/package
