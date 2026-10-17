@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "dist",
+
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+
+    "incremental": true,
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "allowImportingTsExtensions": true,
+    "rewriteRelativeImportExtensions": true,
+    "stripInternal": true,
+    "noEmitOnError": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+
+    "strict": true,
+    "exactOptionalPropertyTypes": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitReturns": true,
+    "noImplicitOverride": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "strictNullChecks": true,
+    "verbatimModuleSyntax": true,
+    "allowUnusedLabels": false,
+    "allowUnreachableCode": false,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  }
+}

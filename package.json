@@ -1,0 +1,36 @@
+{
+  "name": "typed-events-target",
+  "version": "0.0.0-dev",
+  "description": "Strongly typed 0-dependency TypeScript EventTarget module",
+  "keywords": [
+    "evrima",
+    "rcon",
+    "the",
+    "isle"
+  ],
+  "homepage": "https://github.com/Violation-VON/typed-event-target#readme",
+  "bugs": {
+    "url": "https://github.com/Violation-VON/typed-event-target/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Violation-VON/typed-event-target.git"
+  },
+  "license": "GPL-3.0-only",
+  "author": "Violation",
+  "type": "module",
+  "main": "dist/index.js",
+  "files": [
+    "dist/**.js",
+    "dist/**.d.ts"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "docs": "typedoc src"
+  },
+  "devDependencies": {
+    "typedoc": "^0.28.20",
+    "typedoc-plugin-mdn-links": "^5.1.1",
+    "typescript": "^6.0.3"
+  }
+}
